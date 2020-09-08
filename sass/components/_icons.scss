@@ -1,0 +1,115 @@
+.icon-header {
+  fill: #333;
+  height: 1.5rem;
+  width: 1.5rem;
+
+  &:hover {
+    fill: #669900;
+  }
+
+  &-white {
+    fill: #fff;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
+.icon-red {
+  fill: #ff6633;
+  height: 24px;
+  width: 24px;
+}
+.icon-big-ellipse {
+  fill: #ecf4de;
+  height: 43rem;
+  position: absolute;
+  right: 0;
+  width: 52rem;
+  z-index: -10;
+}
+.icon-green-ellipse {
+  fill: #669900;
+  height: 15vw;
+  left: 45%;
+  position: absolute;
+  top: 0%;
+  transform: rotate(105deg);
+  width: 15vw;
+  z-index: -1;
+
+  @media (min-width: 1200px) {
+    height: 11rem;
+    width: 11rem;
+  }
+}
+.icon-yellow-ellipse {
+  bottom: -8%;
+  fill: #f7ae11;
+  height: 14vw;
+  left: 25%;
+  position: absolute;
+  width: 14vw;
+  z-index: -1;
+
+  @media (min-width: 1200px) {
+    height: 10rem;
+    width: 10rem;
+  }
+}
+.icon-red-ellipse {
+  fill: #ff6633;
+  height: 20vw;
+  position: absolute;
+  right: 4%;
+  top: 40%;
+  transform: rotate(-90deg);
+  width: 20vw;
+  z-index: -1;
+
+  @media (min-width: 1200px) {
+    height: 14rem;
+    width: 14rem;
+  }
+}
+.icon-card {
+  fill: #ff6633;
+  height: 2rem;
+  width: 2rem;
+}
+.icon-footer {
+  fill: #690;
+  height: 1rem;
+  width: 1rem;
+}
+.icon-stroke-carrot {
+  fill: #f63;
+  height: 15px;
+  width: 6rem;
+}
+.icon-stroke-green {
+  fill: #690;
+  height: 15px;
+  width: 6rem;
+}
+
+.icon-drop-del {
+  fill: #fff;
+  height: 1.2rem;
+  stroke: #f63;
+  stroke-width: 0.1rem;
+  width: 1.2rem;
+
+  &:hover {
+    fill: #f63;
+  }
+}
+.icon-drop-buy {
+  fill: #fff;
+  height: 1.2rem;
+  stroke: #690;
+  stroke-width: 0.1rem;
+  width: 1.2rem;
+
+  &:hover {
+    fill: #690;
+  }
+}
